@@ -177,9 +177,13 @@ Error message and password prompt
 
 <li>Cathyd Information</li>
 
+<li>Death Saves</li>
+
 <li>Draft of '$:/palettes/Kalibryn'</li>
 
 <li>Einstein Riddle Conversion for DnD</li>
+
+<li>House Rules</li>
 
 <li>Loot Extension</li>
 
@@ -8733,9 +8737,10 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20180528070756959" creator="DaneSpellbinder" modified="20180528070805847" modifier="DaneSpellbinder" title="$:/DefaultTiddlers">
+<div created="20180528070756959" creator="DaneSpellbinder" modified="20181008182820021" modifier="DaneSpellbinder" title="$:/DefaultTiddlers">
 <pre>GettingStarted
 ToDoList
+[House Rules]
 </pre>
 </div>
 <div plugin-type="import" status="pending" title="$:/Import" type="application/json">
@@ -8887,13 +8892,13 @@ very-muted-foreground: #888888
 <div created="20180523164706009" creator="DaneSpellbinder" modified="20180523164706009" modifier="DaneSpellbinder" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
-<div created="20180523164230264" creator="DaneSpellbinder" modified="20180523201335854" modifier="DaneSpellbinder" title="$:/state/tab/sidebar--1835078512">
+<div created="20180523164230264" creator="DaneSpellbinder" modified="20181008182759887" modifier="DaneSpellbinder" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
 <div created="20180523164649565" creator="D" modified="20180523164652778" modifier="DaneSpellbinde" title="$:/status/UserName">
 <pre>DaneSpellbinder</pre>
 </div>
-<div list="[[Rules For Review]] GettingStarted ToDoList" title="$:/StoryList">
+<div list="[[Rules For Review]] [[House Rules]] [[Death Saves]] GettingStarted" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -9121,6 +9126,23 @@ __''Sub-Races:''__
 //''Smooth Talker:''// You gain proficiency in Charisma (Deception) checks and one language of your choice. You can cast the //Friends// cantrip as a bonus action, using Charisma as your spellcasting ability.
 &quot;&quot;&quot;</pre>
 </div>
+<div created="20181008183512025" creator="DaneSpellbinder" modified="20181008185047776" modifier="DaneSpellbinder" tags="[[house rules]]" title="Death Saves">
+<pre>When to roll death saves doesn't change, and what constitutes success vs failure doesn't change.
+
+&quot;&quot;&quot;
+Instead of 3 fails vs 3 successes, it now works as follows: 
+* failures accumulate until you reach your CON score (ie, a CON of 14, means you need 14 fails before dying).
+* However your fails DON'T RESET after stabilizing/healing.  So if you had reached 5 failuress prior to stabilizing/being healed, the next time you drop to 0 or below, your next failure takes you to 6.
+* You need 3 base success saves to stabilize.  However, this number is adjusted by your CON Modifier.  A positive modifier is divided in half (so -1 for every +2 CON Modifier), but a negative modifier adds to your needed # of successful saves. (So an 9 CON that has a -1 Modifier means you need 4 successes to stabilize instead of 3).
+&quot;&quot;&quot;
+
+&quot;&quot;&quot;
+Failed Death Saves only resets when:
+a) you gain a level
+b) after a month of downtime with no combat at all
+&quot;&quot;&quot;
+</pre>
+</div>
 <div created="20180523182937083" creator="DaneSpellbinder" description="Custom Palette for Kalibryn" draft.of="$:/palettes/Kalibryn" draft.title="$:/palettes/Kalibryn" modified="20180523183818315" modifier="DaneSpellbinder" name="Kalibryn" tags="$:/tags/Palette" title="Draft of '$:/palettes/Kalibryn'" type="application/x-tiddler-dictionary">
 <pre>alert-background: #ffe476
 alert-border: #b99e2f
@@ -9271,7 +9293,13 @@ very-muted-foreground: #888888
 
 </pre>
 </div>
-<div created="20180523162423523" modified="20180523162748036" tags="[[daily encounters]]" title="Loot Extension">
+<div created="20181008182805073" creator="DaneSpellbinder" modified="20181008183501286" modifier="DaneSpellbinder" tags="[[house rules]]" title="House Rules">
+<pre>&quot;&quot;&quot;
+[[Death Saves]]
+[[Loot Extension]]
+&quot;&quot;&quot;</pre>
+</div>
+<div created="20180523162423523" creator="DaneSpellbinder" modified="20181008183013681" modifier="DaneSpellbinder" tags="[[house rules]] [[daily encounters]]" title="Loot Extension">
 <pre>When the characters are running through encounters, to aid in the 1 encounter per day syndrome that frequently takes place, the following treasure/loot is added for multiple encouragement!
 
 | Encounter # | Loot DC |
@@ -9297,10 +9325,8 @@ Structure to think about for Music at the table:
 * In a Tavern
 &quot;&quot;&quot;</pre>
 </div>
-<div created="20180523201347807" creator="DaneSpellbinder" modified="20180710204853482" modifier="DaneSpellbinder" tags="" title="Rules For Review">
+<div created="20180523201347807" creator="DaneSpellbinder" modified="20181008185143936" modifier="DaneSpellbinder" tags="" title="Rules For Review">
 <pre>Rule Concepts to Review:
-
-Getting CON # of DeathSaves per level
 
 Devilish resurrection: [[https://old.reddit.com/r/DMAcademy/comments/8xjyf1/res_now_pay_later_house_rule/]]
 
